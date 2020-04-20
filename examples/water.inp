@@ -1,0 +1,13 @@
+! Water, Single point energy
+
+ $contrl runtyp=energy $end
+ $scf dirscf=.true. $end
+
+ $data
+Water
+Cnv 2
+
+O    8.0    0.00    0.00    0.00
+H    1.0    0.00    1.43   -1.10
+ $end
+

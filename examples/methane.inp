@@ -1,0 +1,15 @@
+! Methane, Single point energy
+
+ $contrl runtyp=energy $end
+ $scf dirscf=.true. $end
+
+ $data
+Methane
+C1
+C    6.0   -5.29   -2.22    0.00
+H    1.0   -4.22   -2.22    0.00
+H    1.0   -5.65   -2.71    0.88
+H    1.0   -5.65   -2.71   -0.86
+H    1.0   -5.65   -1.21   -0.01
+ $end
+
